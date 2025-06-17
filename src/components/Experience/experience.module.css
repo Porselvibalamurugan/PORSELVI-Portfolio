@@ -1,0 +1,75 @@
+.exp {
+ padding-top: 130px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.mline {
+  background-color: black;
+  height: 700px;
+  width: 3px;
+  max-width: 2%;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 49%;
+}
+.left1 {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+}
+.left2 {
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 49%;
+}
+.duration {
+  font-size: larger;
+  color: rgb(73, 72, 72);
+}
+.cname {
+  font-size: x-large;
+  color: rgb(12, 5, 5);
+}
+.content {
+  font-size: large;
+  color: rgb(73, 72, 72);
+  line-height: 29px;
+}
+.txt {
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.right1 {
+  display: flex;
+  align-items: center;
+}
+.hline {
+  background-color: black;
+}
+.left1 .hline {
+  height: 2.5px;
+  width: 30vw;
+}
+.left2 .hline {
+  height: 2.5px;
+  width: 30vw;
+}
+.right1 .hline {
+  height: 2.5px;
+  width: 22vw;
+}

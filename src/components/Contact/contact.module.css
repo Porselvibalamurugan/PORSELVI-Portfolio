@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 100px 0px;
+}
+.container > div {
+  font-size: 2.5rem;
+  color: rgb(71, 68, 68);
+}
+.container > span {
+  font-size: 1.8rem;
+  color: rgb(147, 144, 144);
+}
+.subcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 40%;
+}
+.subcontainer > input {
+  padding: 20px;
+  font-size: large;
+  border-radius: 10px;
+  border: 1px solid rgb(137, 132, 131);
+  outline: none;
+}
+.subcontainer > textarea {
+  padding: 20px;
+  font-size: large;
+  font-family: inherit;
+  border-radius: 10px;
+  border: 1px solid rgb(137, 132, 131);
+  outline: none;
+}
+.subcontainer > button {
+  padding: 10px 20px;
+  font-family: inherit;
+  border-radius: 10px;
+  font-size: large;
+  border: 1px solid rgb(137, 132, 131);
+  outline: none;
+  color: aliceblue;
+  background-color: rgb(80, 151, 237);
+}
+.subcontainer > button:hover {
+  background-color: rgb(58, 136, 232);
+  cursor: pointer;
+}
