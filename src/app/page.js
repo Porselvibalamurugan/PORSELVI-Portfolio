@@ -12,7 +12,7 @@ export default function Page() {
       {/* Home */}
       <div className={styles.container}>
         <div className={styles.text}>
-          <div className={styles.text1}>Hello, I'm Porselvi</div>
+          <div className={styles.text1}>Hello, I&apos;m Porselvi</div>
           <div className={styles.text2}>
             Turning coffee into code and ideas into impact
           </div>
