@@ -4,6 +4,8 @@
   display: flex;
   justify-content: space-between;
   padding: 0px 100px;
+/* background: linear-gradient(174deg, rgba(209, 224, 215, 1) 28%, rgba(96, 126, 188, 1) 80%); */
+  
 }
 .text {
   display: flex;
@@ -33,4 +35,15 @@
   color: aliceblue;
   padding: 15px 35px; /*y,x*/
   border-radius: 10px;
+}
+@media (max-width: 480px) {
+.img{
+  display: none;
+}
+.text{
+  padding: 60px;
+}
+.text1{
+  font-size:2rem;
+}
 }

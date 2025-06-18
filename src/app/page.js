@@ -14,14 +14,14 @@ export default function Page() {
         <div className={styles.text}>
           <div className={styles.text1}>Hello, I&apos;m Porselvi</div>
           <div className={styles.text2}>
-            Turning coffee into code and ideas into impact
+          Learning, Building, Evolving
           </div>
           <div className={styles.btn}>
             <Link href="#projects" className={styles.projects}>Projects</Link>
             <Link href="https://www.linkedin.com/in/porselvi-b-014971265/" className={styles.linkedin}>Linkedin</Link>
           </div>
         </div>
-        <div>
+        <div className={styles.img}>
           <Image src="/MyPhoto.jpg" height={400} width={400} alt="photo" />
         </div>
       </div>
@@ -33,7 +33,7 @@ export default function Page() {
         <Projects/>
         <Contact/>
         {/* footer */}
-        <div style={{fontSize:"1.2rem", textAlign:"center", marginBottom:"25px"}} >© 2025 Portfolio. Design with ♥️ by Porselvi.</div>
+        <div style={{fontSize:"1.2rem", textAlign:"center", marginBottom:"25px"}} >© 2025 Portfolio. Design by Porselvi</div>
     </div>
   );
 }

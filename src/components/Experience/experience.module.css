@@ -1,10 +1,19 @@
 .exp {
  padding-top: 130px;
+ /* background: linear-gradient(31deg, rgba(255, 235, 208, 0.79) 32%, rgba(39, 135, 131, 1) 90%); */
 }
 .container {
   display: flex;
   justify-content: space-between;
   padding: 30px;
+  /* background: #FFEBD0; */
+ /* background: linear-gradient(31deg, rgba(255, 235, 208, 0.79) 32%, rgba(39, 135, 131, 1) 90%); */
+ /* background: #7B9ACC; */
+/* background: linear-gradient(230deg, rgba(123, 154, 204, 0.94) 18%, rgba(107, 129, 168, 1) 24%, rgba(80, 88, 108, 0.84) 0%, rgba(156, 195, 213, 1) 34%, rgba(165, 176, 202, 1) 54%, rgba(106, 123, 162, 1) 88%); */
+/* background: #7B9ACC; */
+/* background: linear-gradient(230deg, rgba(123, 154, 204, 1) 0%, rgba(220, 226, 240, 1) 0%, rgba(252, 246, 245, 1) 9%, rgba(123, 154, 204, 0.93) 37%, rgba(156, 195, 213, 0.8) 58%, rgba(80, 88, 108, 1) 89%); */
+/* background: #7B9ACC; */
+/* background: linear-gradient(230deg, rgba(123, 154, 204, 1) 0%, rgba(220, 226, 240, 1) 0%, rgba(252, 246, 245, 1) 23%, rgba(123, 154, 204, 1) 38%, rgba(156, 195, 213, 1) 55%, rgba(80, 88, 108, 1) 86%); */
 }
 .mline {
   background-color: black;

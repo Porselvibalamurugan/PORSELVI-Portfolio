@@ -44,8 +44,12 @@
   outline: none;
   color: aliceblue;
   background-color: rgb(80, 151, 237);
+  
 }
 .subcontainer > button:hover {
   background-color: rgb(58, 136, 232);
   cursor: pointer;
+}
+@media (max-width: 480px) {
+  
 }
