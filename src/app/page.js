@@ -14,11 +14,18 @@ export default function Page() {
         <div className={styles.text}>
           <div className={styles.text1}>Hello, I&apos;m Porselvi</div>
           <div className={styles.text2}>
-          Learning, Building, Evolving
+          Turning ideas into interactive reality
           </div>
           <div className={styles.btn}>
-            <Link href="#projects" className={styles.projects}>Projects</Link>
-            <Link href="https://www.linkedin.com/in/porselvi-b-014971265/" className={styles.linkedin}>Linkedin</Link>
+            <Link href="#projects" className={styles.projects}>
+              Projects
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/porselvi-b-014971265/"
+              className={styles.linkedin}
+            >
+              Linkedin
+            </Link>
           </div>
         </div>
         <div className={styles.img}>
@@ -26,14 +33,22 @@ export default function Page() {
         </div>
       </div>
       {/* About */}
-        <About/>
-        {/* experience */}
-        <Experience/>
-        {/* projects */}
-        <Projects/>
-        <Contact/>
-        {/* footer */}
-        <div style={{fontSize:"1.2rem", textAlign:"center", marginBottom:"25px"}} >© 2025 Portfolio. Design by Porselvi</div>
+      <About />
+      {/* experience */}
+      <Experience />
+      {/* projects */}
+      <Projects />
+      <Contact />
+      {/* footer */}
+      <div
+        style={{
+          fontSize: "1.2rem",
+          textAlign: "center",
+          marginBottom: "25px",
+        }}
+      >
+        © 2025 Portfolio. Design by Porselvi
+      </div>
     </div>
   );
 }
