@@ -43,7 +43,12 @@ export default function About() {
           <div className={styles.scrollContent}>
             {[...skills, ...skills].map((src, i) => (
               <div key={i} className={styles.imageWrapper}>
-                <Image src={src} alt="skill" layout="fill" objectFit="cover" />
+                <Image
+                  src={src}
+                  alt="skill"
+                  layout="fill"
+                  objectFit="contain"
+                />
               </div>
             ))}
           </div>

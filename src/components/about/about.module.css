@@ -55,22 +55,17 @@
 .scrollContent {
   display: flex;
   width: max-content;
-  animation: loopScroll 15s linear infinite;
+  animation: loopScroll 20s linear infinite;
   gap: 50px;
 }
 
 .imageWrapper {
   position: relative;
-  width: 100px;
+  width: 120px;
   height: 100px;
   flex-shrink: 0;
-  filter: grayscale(100%);
-  transition: filter 0.3s ease;
 }
 
-.imageWrapper:hover {
-  filter: grayscale(0%);
-}
 
 @keyframes loopScroll {
   0% {
