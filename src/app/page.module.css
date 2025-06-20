@@ -1,49 +1,119 @@
 .container {
   height: 100vh;
-  align-items: center;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 0px 100px;
-/* background: linear-gradient(174deg, rgba(209, 224, 215, 1) 28%, rgba(96, 126, 188, 1) 80%); */
-  
+  padding: 0 100px;
+  background: linear-gradient(174deg, #e7f1ff 28%, #7096d1 80%);
+  color: #081f5c;
 }
+
 .text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 20px;
-  /* padding-top: 100px; */
 }
+
 .text1 {
   font-size: 10vh;
   font-family: "Times New Roman", Times, serif;
+  color: #081f5c;
 }
+
 .text2 {
-  color: rgb(100, 93, 93);
   font-size: 3.1vh;
+  color: #334eac;
 }
+
 .btn {
   display: flex;
   gap: 20px;
   padding-top: 20px;
 }
-.linkedin,
+
 .projects {
-  height: fit-content;
-  width: fit-content;
-  background-color: rgb(75, 76, 76);
-  color: aliceblue;
-  padding: 15px 35px; /*y,x*/
+  /* background-color: #334eac; */
+  background-color: #1037c2dd;
+
+  color: #f8fcff;
+  padding: 15px 35px;
   border-radius: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
+.linkedin {
+  background-color: #152f8d;
+  color: #f8fcff;
+  padding: 15px 35px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.projects:hover {
+  background-color: #0e37ccdd;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.linkedin:hover {
+  background-color: #092074;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.img {
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 60px 30px;
+    text-align: center;
+  }
+
+  .img {
+    margin-top: 40px;
+  }
+
+  .text1 {
+    font-size: 3rem;
+  }
+
+  .text2 {
+    font-size: 1.2rem;
+  }
+}
+
 @media (max-width: 480px) {
-.img{
-  display: none;
-}
-.text{
-  padding: 60px;
-}
-.text1{
-  font-size:2rem;
-}
+  .img {
+    display: none;
+  }
+
+  .text {
+    padding: 60px 20px;
+  }
+
+  .text1 {
+    font-size: 2.5rem;
+  }
+
+  .text2 {
+    font-size: 1.1rem;
+  }
 }

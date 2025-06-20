@@ -14,7 +14,7 @@ export default function Page() {
         <div className={styles.text}>
           <div className={styles.text1}>Hello, I&apos;m Porselvi</div>
           <div className={styles.text2}>
-          Turning ideas into interactive reality
+            Turning ideas into interactive reality
           </div>
           <div className={styles.btn}>
             <Link href="#projects" className={styles.projects}>
@@ -42,6 +42,7 @@ export default function Page() {
       {/* footer */}
       <div
         style={{
+          color: "gray",
           fontSize: "1.2rem",
           textAlign: "center",
           marginBottom: "25px",

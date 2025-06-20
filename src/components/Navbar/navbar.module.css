@@ -3,12 +3,12 @@
   justify-content: space-between;
   align-items: center;
   font-size: 1.3rem;
-  padding: 35px 20px;
+  padding: 35px 60px;
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
-  background: rgba(255, 255, 255, 0.323);
+  background: rgba(255, 255, 255, 0.151);
   backdrop-filter: blur(30px);
   z-index: 10;
 }
@@ -16,16 +16,22 @@
   display: flex;
   gap: 50px;
   cursor: pointer;
+  color: #334eac;
+}
+.subcontainer a {
+  text-transform: uppercase;
+  font-size: 1rem;
 }
 .contact {
   height: fit-content;
   width: fit-content;
   color: aliceblue;
-  background-color: rgb(80, 151, 237);
-  padding: 15px 25px; /*y,x*/
+  background-color: #152f8d;
+
+  padding: 12px 18px; /*y,x*/
   border-radius: 10px;
 }
 .contact:hover {
-  background-color: rgb(58, 136, 232);
+  background-color: #092074;
   cursor: pointer;
 }

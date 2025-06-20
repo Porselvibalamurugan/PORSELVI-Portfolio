@@ -2,7 +2,17 @@ import styles from "./projects.module.css";
 export default function Projects() {
   return (
     <div id="projects" className={styles.pro}>
-      <div style={{ textAlign: "center", fontSize: "3rem" }}>Projects</div>
+      <div
+        style={{
+          textAlign: "center",
+          fontSize: "3rem",
+          color: "#081f5c",
+          fontWeight: "bold",
+          paddingBottom: "10px",
+        }}
+      >
+        Projects
+      </div>
       <div className={styles.container}>
         <div className={`${styles.card} ${styles.card1}`}>
           <span>IoT-Driven Smart Irrigation System</span>

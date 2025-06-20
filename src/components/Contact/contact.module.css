@@ -4,52 +4,68 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
-  padding: 100px 0px;
+  padding: 100px 20px;
 }
+
 .container > div {
   font-size: 2.5rem;
-  color: rgb(71, 68, 68);
+  color: #081f5c;
+  font-weight: bold;
 }
+
 .container > span {
-  font-size: 1.8rem;
-  color: rgb(147, 144, 144);
+  font-size: 1.6rem;
+  color: #334eac;
 }
+
 .subcontainer {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 25px;
   width: 40%;
+  /* background-color: #e7f1ff; */
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
 }
-.subcontainer > input {
-  padding: 20px;
-  font-size: large;
-  border-radius: 10px;
-  border: 1px solid rgb(137, 132, 131);
-  outline: none;
-}
+
+.subcontainer > input,
 .subcontainer > textarea {
-  padding: 20px;
+  padding: 18px;
   font-size: large;
   font-family: inherit;
-  border-radius: 10px;
-  border: 1px solid rgb(137, 132, 131);
+  border-radius: 12px;
+  border: 1px solid #a0bce0;
   outline: none;
+  background-color: #ffffff;
+  transition: border 0.2s ease;
 }
+
+.subcontainer > input:focus,
+.subcontainer > textarea:focus {
+  border: 1px solid #334eac;
+}
+
 .subcontainer > button {
-  padding: 10px 20px;
+  padding: 12px 24px;
   font-family: inherit;
-  border-radius: 10px;
+  border-radius: 12px;
   font-size: large;
-  border: 1px solid rgb(137, 132, 131);
-  outline: none;
-  color: aliceblue;
-  background-color: rgb(80, 151, 237);
-  
+  border: none;
+  background-color: #334eac;
+  color: #ffffff;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
+
 .subcontainer > button:hover {
-  background-color: rgb(58, 136, 232);
+  background-color: #5273d4;
+  transform: scale(1.03);
   cursor: pointer;
 }
-@media (max-width: 480px) {
-  
+
+@media (max-width: 768px) {
+  .subcontainer {
+    width: 90%;
+    padding: 25px;
+  }
 }

@@ -15,7 +15,7 @@ const skills = [
 
 export default function About() {
   return (
-    <div id="about">
+    <div id="about" className={styles.about}>
       <div className={styles.container}>
         <div className={styles.lcontainer}>
           <Image src="/MyPhoto.jpg" height={400} width={400} alt="photo" />
